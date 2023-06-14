@@ -58,3 +58,12 @@ FROM customers
 WHERE phone LIKE '%9'
 
 -- phone number end with 9
+
+
+
+-- Get the customers whose 
+-- first names are ELKA or AMBUR
+
+SELECT *
+FROM customers 
+WHERE first_name REGEXP 'elka|ambur'
