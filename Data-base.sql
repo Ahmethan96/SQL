@@ -47,3 +47,7 @@ SELECT *
 FROM customers
 WHERE last_name LIKE '%b%'
 
+-- USE sql_store; 
+-- SELECT customer_id, first_name, last_name, state
+-- FROM customers 
+SELECT * FROM sql_store.customers WHERE sql_store.customers.birth_date > '1980-01-01'
