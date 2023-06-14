@@ -51,3 +51,10 @@ WHERE last_name LIKE '%b%'
 -- SELECT customer_id, first_name, last_name, state
 -- FROM customers 
 SELECT * FROM sql_store.customers WHERE sql_store.customers.birth_date > '1980-01-01'
+
+
+SELECT * 
+FROM customers
+WHERE phone LIKE '%9'
+
+-- phone number end with 9
