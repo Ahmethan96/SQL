@@ -72,3 +72,12 @@ WHERE first_name REGEXP 'elka|ambur'
 SELECT *
 FROM customers
 WHERE phone IS NULL
+
+
+-- get the orders that are not shoppid 
+
+-- SELECT * FROM sql_store.orders
+
+SELECT *
+FROM orders 
+WHERE shipped_date IS NULL or shipper_id IS NULL
