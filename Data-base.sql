@@ -8,6 +8,9 @@
 
 -- SELECT * FROM sql_store.customers;
 
+select name, unit_price, unit_price * 1.2 as new_price
+from products
+
 -- SELECT * 
 -- FROM customers
 -- WHERE birth_date > '1990-01-01'
